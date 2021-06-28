@@ -17,5 +17,3 @@
 	$hex_6    = pack("H*", '0D0D45');
 	fwrite($test, $hex_1.$title.$hex_2.$company.$hex_3.$address.$hex_4.$city.$hex_5.$postcode.$hex_6);
 	fclose($test);
-
-?>
